@@ -1,0 +1,116 @@
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+
+  .splitCreateHero {
+    height: 100%;
+    width: 40%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: rgb(167, 154, 214);
+  }
+
+  .splitCreateLoot{
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 40%;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: rgb(133, 221, 107);
+  }
+
+  .splitCreateExploration{
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 70%;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: rgb(179, 209, 255);
+  }
+
+  .middle {
+    height: 50%;
+    width: 50%;
+    position: fixed;
+    left:25%;
+    z-index: 1;
+    bottom: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+    background-color: rgb(167, 154, 214);
+  }
+
+  .playerDiv {
+    height: 50%;
+    width: 25%;
+    position: fixed;
+    left:25%;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+    background-color: rgb(206, 199, 231);
+  }
+  .opponentDiv {
+    height: 50%;
+    width: 25%;
+    position: fixed;
+    left:50%;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+    background-color: rgb(54, 142, 148);
+  }
+
+
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: rgb(255, 202, 202);
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: rgb(211, 255, 205);
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  .multiline {
+    white-space: pre-wrap;
+  }
+  
